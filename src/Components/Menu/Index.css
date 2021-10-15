@@ -1,0 +1,26 @@
+header{
+    background: #30475E;  
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+ul a{
+    margin: 16px;
+    color: #DDDDDD;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul a:hover{
+    color: #F05454;
+}
+
+ul img{
+    margin: auto;
+    margin-left: 20px;
+    height: 55px;
+}
