@@ -13,3 +13,10 @@ body,
   background: #DDDDDD;
   height: 100%;
 }
+
+header, footer{
+  background: #30475E;
+}
+#body{
+  min-height: 90%;
+}

@@ -1,0 +1,28 @@
+.rodape{
+    position: relative;
+    bottom: 0;
+    padding: 30px;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.redes{
+    margin: 10px;
+    color: #DDDDDD;
+    cursor: pointer;
+    font-size: 20px;
+}
+.redes:hover{
+    color: #F05454;
+}
+.copyRight{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #DDDDDD;
+}
+.copyRight span{
+    color: #F05454;
+}
