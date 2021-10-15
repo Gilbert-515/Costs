@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import style from './../../../css/Menu.module.css';
-import image from './../../../Img/costs_logo.png';
+import image from './../../../img/costs_logo.png';
 
 function Menu () {
 

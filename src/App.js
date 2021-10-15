@@ -3,10 +3,10 @@ import {
   Switch, 
   Route
 } from 'react-router-dom';
-import Menu from './Components/Layout/Menu/Index';
-import Footer from './Components/Layout/Footer/Index';
-import Home from './Pages/Home';
-import Projetos from './Pages/Projetos';
+import Menu from './components/Layout/Menu/Index';
+import Footer from './components/Layout/Footer/Index';
+import Home from './pages/Home';
+import Projetos from './pages/Projetos';
 
 function App() {
   return ( 
