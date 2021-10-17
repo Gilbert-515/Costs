@@ -1,20 +1,20 @@
-import style from './../../../css/Footer.module.css';
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa'
+import { Rodape, Ul, Li, Copy } from './styles'
 
 function Footer () {
 
     return(
-        <footer className={style.rodape}>
-            <ul className={style.ul}>
-                <li className={style.redes}><FaFacebook/></li>
-                <li className={style.redes}><FaInstagram/></li>
-                <li className={style.redes}><FaTwitter/></li>
-                <li className={style.redes}><FaLinkedin/></li>
-            </ul>
-            <div className={style.copyRight}>
+        <Rodape >
+            <Ul >
+                <Li ><FaFacebook/></Li>
+                <Li ><FaInstagram/></Li>
+                <Li ><FaTwitter/></Li>
+                <Li ><FaLinkedin/></Li>
+            </Ul>
+            <Copy>
                 <p><span>costs</span> &copy; 2021</p>
-            </div>
-        </footer>
+            </Copy>
+        </Rodape>
     );
 }
 

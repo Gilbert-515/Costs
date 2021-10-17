@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 import Menu from './components/Layout/Menu/Index';
 import Footer from './components/Layout/Footer/Index';
-import Home from './pages/Home';
+import Home from './pages/Home/index';
 import Projetos from './pages/Projetos';
 
 function App() {

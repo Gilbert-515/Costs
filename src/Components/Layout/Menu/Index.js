@@ -1,19 +1,19 @@
 import { Link } from 'react-router-dom';
-import style from './../../../css/Menu.module.css';
-import image from './../../../img/costs_logo.png';
+import image from './../../../assets/costs_logo.png';
+import { Header, Ul, Img, Lk } from './styles'
 
 function Menu () {
 
     return(
-        <header className={style.header}>       
-            <ul className={style.ul}>
-                <img src={image} alt='logo' className={style.logo}/>
-                <Link to='/' className={style.link}><li >Home</li></Link>
-                <Link to='/projetos' className={style.link}><li >Projetos</li></Link>
-                <Link className={style.link}><li >About</li></Link>
-                <Link className={style.link}><li >About</li></Link>
-            </ul>
-        </header>
+        <Header >       
+            <Ul >
+                <Img src={image} alt='logo'/>
+                <Lk><Link to='/'><li >Home</li></Link></Lk>    
+                <Lk><Link to='/projetos'><li >Projetos</li></Link></Lk>
+                <Lk><Link ><li >About</li></Link></Lk>   
+                <Lk><Link ><li >About</li></Link></Lk>
+            </Ul>
+        </Header>
     );
 }
 
