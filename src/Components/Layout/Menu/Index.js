@@ -10,8 +10,8 @@ function Menu () {
                 <Img src={image} alt='logo'/>
                 <Lk><Link to='/'><li >Home</li></Link></Lk>    
                 <Lk><Link to='/projetos'><li >Projetos</li></Link></Lk>
-                <Lk><Link ><li >About</li></Link></Lk>   
-                <Lk><Link ><li >About</li></Link></Lk>
+                <Lk><Link to='/empresa'><li >Empresa</li></Link></Lk>   
+                <Lk><Link to='/contato'><li >Contato</li></Link></Lk>
             </Ul>
         </Header>
     );

@@ -5,8 +5,11 @@ import {
 } from 'react-router-dom';
 import Menu from './components/Layout/Menu/Index';
 import Footer from './components/Layout/Footer/Index';
-import Home from './pages/Home/index';
-import Projetos from './pages/Projetos';
+import Home from './pages/Home/';
+import Projects from './pages/Projects';
+import NewProject from './pages/NewProject/';
+import Company from './pages/Company';
+import Contacts from './pages/Contacts';
 
 function App() {
   return ( 
@@ -16,10 +19,22 @@ function App() {
               <div id='body'>
                 <Route exact path='/'>
                     <Home/>
-                </Route>    
+                </Route>   
 
                 <Route path='/projetos'>
-                    <Projetos/>
+                    <Projects/>
+                </Route> 
+
+                <Route path='/novo-projeto'>
+                    <NewProject/>
+                </Route>
+
+                <Route path='/empresa'>
+                  <Company/>
+                </Route>
+
+                <Route path='/contato'>
+                    <Contacts/>
                 </Route>
               </div>
           </Switch>
