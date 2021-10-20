@@ -1,7 +1,15 @@
+import { Div } from "./styles";
+import { FormProject } from "../../components";
 
  function NewProject () {
 
-    return <h1>New Project page</h1>
+    return (
+       <Div>
+          <h1>Criar Projeto</h1>
+          <p>Crie seu projeto depois adicione os serviços</p>
+          <FormProject btnText='Criar Projeto'/>
+       </Div>
+    );
  }
 
  export default NewProject;

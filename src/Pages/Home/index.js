@@ -1,4 +1,4 @@
-import LinkButton from '../../components/LinkButton';
+import { LinkButton } from '../../components';
 import saving from './../../assets/savings.svg'
 import { Sessao } from './styles'
 

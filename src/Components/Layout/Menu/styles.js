@@ -25,6 +25,7 @@ import styled from "styled-components";
             cursor: pointer;
             font-weight: bold;
             text-decoration: none;
+            transition: 0.3s;
             &:hover{
                 color: #F05454;
             }

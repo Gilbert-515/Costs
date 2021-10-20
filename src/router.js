@@ -1,10 +1,10 @@
+import React from 'react';
 import { 
   BrowserRouter as Router, 
   Switch, 
   Route
 } from 'react-router-dom';
-import Menu from './components/Layout/Menu/Index';
-import Footer from './components/Layout/Footer/Index';
+import { Menu, Footer } from './components';
 import Home from './pages/Home/';
 import Projects from './pages/Projects';
 import NewProject from './pages/NewProject/';
@@ -16,6 +16,7 @@ function App() {
       <Router>
         <Menu/>
           <Switch>
+            <React.Fragment>
               <div id='body'>
                 <Route exact path='/'>
                     <Home/>
@@ -37,6 +38,7 @@ function App() {
                     <Contacts/>
                 </Route>
               </div>
+            </React.Fragment>
           </Switch>
         <Footer/>
       </Router>

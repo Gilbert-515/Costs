@@ -17,6 +17,7 @@ import styled from "styled-components";
         color: #DDDDDD;
         cursor: pointer;
         font-size: 20px;
+        transition: 0.3s;
         &:hover{
             color: #F05454;
         }
