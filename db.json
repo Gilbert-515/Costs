@@ -1,0 +1,88 @@
+{
+  "projects": [
+    {
+      "projeto": {
+        "name": "projeto 1",
+        "budget": "2500",
+        "category": {
+          "id": "4",
+          "name": "Planejamento"
+        },
+        "description": "teste",
+        "costs": 2400,
+        "services": [
+          {
+            "name": "teste",
+            "cost": "1200",
+            "description": "teste",
+            "id": "91a689a1-1e73-42a4-83ca-ca8e6db55299"
+          },
+          {
+            "name": "teste2",
+            "cost": "111",
+            "description": "teste",
+            "id": "0320bd0c-736a-408a-901a-004d32517e0e"
+          },
+          {
+            "name": "teste3",
+            "cost": "1000",
+            "description": "teste",
+            "id": "52ce7cec-4be4-44e5-aba7-a8f22b2779e1"
+          },
+          {
+            "name": "teste5",
+            "cost": "89",
+            "description": "teste",
+            "id": "8d93c288-b034-40e0-90f8-1eb18b3908bd"
+          }
+        ]
+      },
+      "id": 1
+    },
+    {
+      "projeto": {
+        "name": "Projeto 2",
+        "budget": "2400",
+        "category": {
+          "id": "2",
+          "name": "Desenvolvimento"
+        },
+        "description": "projeto teste",
+        "costs": 1500,
+        "services": [
+          {
+            "name": "serviço 1",
+            "cost": "500",
+            "description": "serviço teste",
+            "id": "0ad327ea-1395-476e-99e1-3243baa4c8de"
+          },
+          {
+            "name": "serviço 2",
+            "cost": "1000",
+            "description": "teste",
+            "id": "7ec16768-d9f8-446f-bd44-7d7c1d651839"
+          }
+        ]
+      },
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}

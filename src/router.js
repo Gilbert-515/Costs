@@ -8,8 +8,7 @@ import { Menu, Footer } from './components';
 import Home from './pages/Home/';
 import Projects from './pages/Projects';
 import NewProject from './pages/NewProject/';
-import Company from './pages/Company';
-import Contacts from './pages/Contacts';
+import Project from './pages/Project';
 
 function App() {
   return ( 
@@ -24,18 +23,14 @@ function App() {
 
                 <Route path='/projetos'>
                     <Projects/>
+                </Route>
+
+                <Route path='/projeto/:id'>
+                    <Project/>
                 </Route> 
 
                 <Route path='/novo-projeto'>
                     <NewProject/>
-                </Route>
-
-                <Route path='/empresa'>
-                  <Company/>
-                </Route>
-
-                <Route path='/contato'>
-                    <Contacts/>
                 </Route>
               </div>
             </React.Fragment>

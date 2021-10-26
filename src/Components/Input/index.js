@@ -1,6 +1,6 @@
 import { Div } from "./styles";
 
-function Input({type, name, placeholder, text, handleOnChange, value}) {
+function Input({type, name, placeholder, text, handleOnChange, value , required, step}) {
 
     return(
         <Div>
@@ -9,9 +9,12 @@ function Input({type, name, placeholder, text, handleOnChange, value}) {
             type={type} 
             name={name} 
             id={name}
+            step={step}
             placeholder={placeholder}
             onChange={handleOnChange}
             value={value}
+            required={required}
+            autoComplete="off"
             />     
         </Div>
     );

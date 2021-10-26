@@ -8,6 +8,7 @@
         label{
             margin-bottom: .6em;
             font-weight: bold;
+            color: #222831;
         }
         input{
             border: none;
@@ -15,6 +16,10 @@
             padding: .7em;
             &::placeholder{
                 color: #bbb;
+            }
+            &:focus{
+                border: 1px solid #222831;
+                outline: none;
             }
         }
         

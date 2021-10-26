@@ -7,7 +7,7 @@ import styled from "styled-components";
             color: #DDDDDD;
             cursor: pointer;
             height: 40px;
-            width: 110px;
+            padding: 8px;
             border: none;
             border-radius: 4px;
             margin-top: 1em;
